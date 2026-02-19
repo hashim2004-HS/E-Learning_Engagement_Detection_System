@@ -1,16 +1,43 @@
-# E-Learning Engagement Detection System
+# 🎓 E-Learning Engagement Detection System
 
-This project is a basic prototype for an E-Learning Engagement Detection System using a laptop camera. It leverages OpenCV for real-time video capture, face and eye detection, and overlays a dummy engagement score on the video feed.
+An AI-based real-time student engagement monitoring system for online learning environments.  
+This project uses computer vision techniques to analyze facial landmarks, eye movement and head pose through a webcam to estimate user engagement levels during e-learning sessions.
 
-## Project Structure
-- **main.py:** The application entry point that handles video capture and display.
-- **detector.py:** Contains functions to detect faces and eyes using Haar cascades.
-- **models.py:** Includes a dummy engagement prediction function (to be replaced with real machine learning models).
-- **utils.py:** Utility functions, such as overlaying text on video frames.
-- **config.py:** Configuration parameters for the application.
-- **requirements.txt:** Lists the project dependencies.
-- **README.md:** This documentation file.
-- **data/** (Optional): Directory to store training data or sample images.
+---
+
+## 📌 Overview
+
+This system captures live video feed using a laptop webcam and processes it to:
+
+- Detect face and eye movements  
+- Monitor user attention  
+- Calculate engagement score  
+- Display engagement level in real-time  
+- Generate engagement reports  
+
+Built using Python, OpenCV, MediaPipe, and Flask.
+
+---
+
+## 🚀 Features
+
+- Real-time webcam monitoring  
+- Eye-based attention tracking  
+- Engagement score calculation  
+- Live score overlay  
+- Web dashboard using Flask  
+- MongoDB-based data storage  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python (Flask)  
+- **Libraries:** OpenCV, MediaPipe, NumPy  
+- **Database:** MongoDB  
+
+---
 
 ## Setup
 1. Install dependencies:
